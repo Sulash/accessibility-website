@@ -1,0 +1,55 @@
+.user-col1{
+    width: 70%;
+}
+
+.user-col2{
+    width: 30%;
+    margin: auto;
+}
+
+.facebook-color{
+    background-color: #4267B2;
+    color: white;
+    margin: 5px 0px;
+}
+
+.yahoo-color{
+    background-color: #720e9e ;
+    color: white;
+}
+
+
+/* responsive design */
+
+/* 1200px */
+@media screen and (max-width: 1400px){
+
+}
+
+
+
+
+/* 990 */
+@media screen and (max-width: 1200px){
+ 
+    
+}
+
+
+/* 780px */
+@media screen and (max-width: 991px){
+    
+
+}
+
+/* 600 */
+@media screen and (max-width: 780px){
+    .user-col2 button{
+        font-size: 12px;
+    }
+
+    .h1{
+        font-size: 20px;
+    }
+
+}

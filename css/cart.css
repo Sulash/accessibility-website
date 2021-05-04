@@ -1,0 +1,102 @@
+.right-margin{
+    margin-right: 10px;
+}
+
+.cart-col1{
+    width: 75%;
+    /* background-color: aqua; */
+}
+
+.card-width{
+    width: 480px;
+}
+
+.cart-col2{
+    width: 25%;
+    /* background-color: blue; */
+}
+
+.col-md-4 img{
+    width: 100%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* responsive design */
+
+/* 1200px */
+@media screen and (max-width: 1400px){
+    .cart-col1{
+        width:100%;
+        margin:auto;
+         
+    }
+    .cart-col2{
+        width: 100%;
+        margin:20px 0px;
+    }
+
+    .card-width{
+     width: 500px;
+     margin:0px 20px;
+    }
+
+}
+
+
+
+
+/* 990 */
+@media screen and (max-width: 1200px){
+    
+    .cart-col1{
+        width:100%;
+        margin:auto;
+         
+    }
+    .cart-col2{
+        width: 100%;
+        margin:20px 0px;
+    }
+    .card-width{
+        width: 400px;
+        margin:0px 30px;
+       }
+
+
+ 
+}
+
+
+/* 780px */
+@media screen and (max-width: 991px){
+    
+
+    .cart-col1{
+        width:100%;
+        margin:auto;
+         
+    }
+    .cart-col2{
+        width: 100%;
+        margin:20px 0px;
+    }
+    .card-width{
+        width: 100%;
+        margin:0px 30px;
+       }
+       .btn-width{
+           width:50%;
+       }
+
+
+}
+
+/* 600 */
+@media screen and (max-width: 780px){
+    
+
+}

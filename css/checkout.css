@@ -1,0 +1,65 @@
+.hr {
+    position: relative;
+}
+
+.checkout-line {
+    /*   */
+    border: 5px solid darkgreen;
+    margin: auto;
+    border-radius: 10px;
+    /* float:left;  */
+
+}
+
+.sub-hr {
+    width: 50%;
+    border: 5px solid darkgreen;
+    border-radius: 10px;
+    position: absolute;
+    color: green;
+    top: -15px;
+}
+
+
+.my-text {
+    /* float: left; */
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-12 {
+    width: 20%;
+    margin: auto;
+}
+
+/* responsive design */
+
+/* 1200px */
+@media screen and (max-width: 1400px) {}
+
+
+
+
+/* 990 */
+@media screen and (max-width: 1200px) {}
+
+
+/* 780px */
+@media screen and (max-width: 991px) {}
+
+/* 600 */
+@media screen and (max-width: 780px) {
+    .btn a {
+        font-size: 12px;
+    }
+
+    .col-12 {
+        width: 30%;
+    }
+}

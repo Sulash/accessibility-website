@@ -1,0 +1,237 @@
+.carouselExampleCaptions{
+    width: 1080px;
+    height: auto; 
+}
+
+.carousel-item img{
+    width: 1080px;
+   height: auto;
+}
+
+
+.non-display{
+    display: none;
+}
+
+
+.filter{
+    width: 50%;
+}
+
+/* filter box  */
+.content-container1{
+    
+    padding: 20px;
+    width: 20%;
+    line-height: 2em;
+   
+}
+
+.shoes-type-filter{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.shoes-price-filter{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.shoes-color-filter, .shoes-size-filter{
+    margin-top: 30px;
+}
+
+/* product container  */
+
+.content-container2{
+    margin: auto;
+    padding: 0px 10px;
+    width: 70%;
+    
+}
+
+/* product container's sub container  */
+.col{
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.image-container{
+    position: relative;
+}
+
+/* sub container image  */
+.image-container img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.extra{
+    height: 50px;
+  
+}
+
+
+.icon-position{
+    position:absolute;
+    color: white;
+    bottom:5px;
+    left: 5px;;
+}
+
+.icon-red-color{
+    color: red;
+}
+
+/* button margin  */
+.col button{
+    margin: 5px 0px;
+}
+
+/* rating option  */
+.star-rating{
+    color: yellow;
+}
+
+
+
+/* price indicator slider  */
+
+  .slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+
+  /* color box and css  */
+  /* for filter box color selection  */
+  
+  .box{
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      border: 1px solid ;
+  }
+
+  .red{
+    background-color: red;
+  }
+
+  .blue{
+    background-color: blue;
+  }
+
+  .black{
+      background-color: black;
+  }
+
+  .white{
+      background-color: white;
+  }
+  .pink{
+    background-color: pink;
+}
+
+/* responsive design */
+
+/* 1200px */
+@media screen and (max-width: 1400px){
+
+    .extra{
+        height: 30px;
+    }
+    .h5{
+        font-size:18px;
+    }
+}
+
+
+
+
+/* 990 */
+@media screen and (max-width: 1200px){
+    .content-container1{
+        font-size: 16px;;
+    }
+    .h5{
+        font-size:16px;
+    }
+    
+}
+
+
+/* 780px */
+@media screen and (max-width: 991px){
+    .content-container1{
+       width: 100%;
+       padding: 10px;
+       display: none;
+    }
+
+    .non-display{
+        display:flex;
+        max-width:20%;
+    }
+
+    .content-container2{
+        width: 100%;
+    }
+
+    .col button{
+         font-size: 12px;;
+     }
+
+     .extra{
+         height:40px;
+     }
+
+
+}   
+
+/* 600 */
+@media screen and (max-width: 780px){
+   .h5{
+       font-size: 16px;
+   }
+   .iconify{
+       width: 12px;
+       height:auto;
+   }
+   .btn{
+       font-size: 12px !important;
+   }
+
+}

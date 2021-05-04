@@ -1,0 +1,135 @@
+.hero-img-container img{
+    margin: 10px 0px;
+    width: 100%;
+    height: 100%vh;
+}
+
+
+.content-container{
+    float: left;
+    margin:20px 0px;
+    width: 100%;
+    /* background-color:#C0BAA7; */
+    padding:5px;
+}
+
+.container-title{
+    background-color: #AE360E;
+    color: white;
+    padding:10px;
+}
+
+.shoes-container{
+    float:left;
+    margin-left: 0px;
+    padding: 10px;
+    width:25%;
+    
+}
+.shoes-container img{
+    width: 100%;
+    height: auto;
+    outline: 1px solid black;   
+    margin: 10px 0px;
+}
+
+
+.index-width span{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+/* responsive design */
+
+/* 1200px */
+@media screen and (max-width: 1400px){
+    .shoes-container{
+        margin: 0px 0px;
+        padding:0px 5px;
+    }
+  
+}
+
+
+
+
+/* 990 */
+@media screen and (max-width: 1200px){
+   .container-title{
+       padding:5px;
+   }
+
+    .shoes-container{
+       margin: 0px 0px;
+       padding:5px;
+   }
+   .shoes-container img{
+    width: 150px;
+    height: auto;
+    margin: 10px 0px;
+    }
+
+    .shoes-container span{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+/* 780px */
+@media screen and (max-width: 991px){
+    .container-title{
+        padding:5px;
+    }
+ 
+     .shoes-container{
+        margin: 0px 0px;
+        padding:5px;
+    }
+    .shoes-container img{
+     width: 150px;
+     height: auto;
+     margin: 10px 0px;
+     }
+ 
+     .shoes-container span{
+         font-size: 14px;
+     }
+    
+    
+
+}
+
+/* 600 */
+@media screen and (max-width: 780px){
+    .container-title{
+        padding:2px;
+    }
+ 
+     .shoes-container{
+        margin: 0px 0px;
+        padding:5px;
+    }
+    .shoes-container img{
+     width: 100px;
+     height: auto;
+     margin: 10px 0px;
+     }
+ 
+     .shoes-container span{
+         font-size: 12px;
+     }
+
+}
+
+
+/* 400 */
+@media screen and (max-width: 590){
+	
+}
