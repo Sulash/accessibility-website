@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalkAbout</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">   
+    <link rel="icon" href="../images/logo-ps.png">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+
+<body>
+    <!-- header and navigation  -->
+    <div class="container">
+        <header class="clearfix">
+          <!-- logo container  -->
+          <div class="logo-container">
+            <img src="../images/logo-ps.png" alt="walkabout-logo">
+          </div>
+    
+          <!-- search bar container  -->
+          <div class="search-bar-container">
+            <input type="text" name="search-bar-input" id="search-bar-input" placeholder="Search for a product....">
+            <span class="iconify search-icon" data-icon="ic-baseline-search" data-inline="false"></span>
+          </div>
+    
+          <!-- icon: cart,user, favourite  -->
+          <div class="services">
+            <a href="cart.html">
+              <span class="no-display">Cart</span>
+              <span class="iconify cart-icon" data-icon="bi:cart" data-inline="false"></span>
+            </a>
+            <a href="favourite.html">
+              <span class="no-display">Liked</span>
+              <span class="iconify heart-icon" data-icon="ant-design:heart-filled" data-inline="false"></span>
+            </a>
+            <a href="user-login.html">
+              <span class="no-display">User</span>
+              <span class="iconify user-icon" data-icon="bx:bxs-user-circle" data-inline="false"></span>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+    
+          <!-- nav-bar  -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Walkabout >></a>
+              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="men-shoes.html">Men's Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="women-shoes.html">Women's Shoes</a>
+                  </li>
+    
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+
+    <div class="margin clearfix"></div>
+
+    <!-- breadcrumb  -->
+    <div class="breadcrumbs container ">
+        <span>
+            <a href="index.html">WalkAbout</a>
+            >>
+            <a href="cart.html">My cart</a>
+        </span>
+    </div>
+
+
+    <div class="margin clearfix"></div>
+
+    <!-- progress-bar  -->
+    <div class="container clearfix">
+        <div class="hr">
+            <hr class="checkout-line">
+            <div class="sub-hr-container">
+                <hr class="sub-hr">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- progress text  -->
+    <div class="text-center container">
+        <span class="text-muted">Checking out(50%)</span><br>
+    </div>
+
+
+
+
+    <!-- main container  -->
+    <div class="container ">
+        <!-- first container  -->
+        <h1>Your cart</h1>
+        <hr>
+        <div class="row">
+
+            <!-- product list box  -->
+            <div class="cart-col1">
+                <div class="row">
+
+                    <!-- product list one  -->
+                    <div class="card mb-3 extra card-width">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../images/lady9.jpg" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <span class="h5 card-title">White pump heel shoes</span>
+                                    <p class="card-text">Price: Rs.6000/</p>
+
+                                    <p class="card-text"> Quantity:
+                                        <select name="quantity">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                        </select>
+                                        <span class="right-margin"></span>
+                                        Size:
+                                        <select name="quantity">
+                                            <option value="35">35</option>
+                                            <option value="36">36</option>
+                                            <option value="37">37</option>
+                                            <option value="38" selected>38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                            <option value="42">42</option>
+                                        </select>
+                                    </p>
+
+
+                                    <div class="btn-width">
+                                        <button class="btn btn-danger">Remove From the cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- product list two  -->
+                    <div class="card mb-3 card-width ">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../images/shoes7.jpg" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <span class="h5 card-title">Adidas running shoes</span>
+                                    <p class="card-text">Price: Rs.3000/</p>
+
+                                    <p class="card-text"> Quantity:
+                                        <select name="quantity">
+                                            <option value="1">1</option>
+                                            <option value="2" selected>2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                        </select>
+                                        <span class="right-margin"></span>
+                                        Size:
+                                        <select name="quantity">
+                                            <option value="35">35</option>
+                                            <option value="36">36</option>
+                                            <option value="37">37</option>
+                                            <option value="38" selected>38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                            <option value="42">42</option>
+                                        </select>
+                                    </p>
+
+
+                                    <div class="btn-width">
+                                        <button class="btn btn-danger">Remove From the cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- product list three  -->
+                    <div class="card mb-3 card-width">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../images/shoes1.jpg" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <span class="h5 card-title">Vans Old school shoes</span>
+                                    <p class="card-text">Price: Rs.2500/</p>
+
+                                    <p class="card-text"> Quantity:
+                                        <select name="quantity">
+                                            <option value="1">1</option>
+                                            <option value="2" selected>2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                        </select>
+                                        <span class="right-margin"></span>
+                                        Size:
+                                        <select name="quantity">
+                                            <option value="35">35</option>
+                                            <option value="36">36</option>
+                                            <option value="37">37</option>
+                                            <option value="38" selected>38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                            <option value="42">42</option>
+                                        </select>
+                                    </p>
+
+
+                                    <div class="btn-width">
+                                        <button class="btn btn-danger">Remove From the cart</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- checkout box  -->
+            <div class="cart-col2">
+                <span class="h3 btn btn-success ">Order Summary</span>
+                <table class="table table-striped text-capitalize">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>White pump heel</td>
+                        <td>1</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr>
+                        <td>Adidas running shoes</td>
+                        <td>2</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr>
+                        <td>Vans Old School shoes</td>
+                        <td>2</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Total Amount</th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Delivery Charge</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total Charge</td>
+                        <td>12000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <button class=" btn btn-success">
+                                <a href="checkout.html">
+                                    Checkout
+                                    <span class="iconify" data-icon="bi:arrow-right-circle-fill"
+                                        data-inline="false"></span>
+                                </a>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="margin clearfix"></div>
+
+    <!-- footer block  -->
+    <footer>
+        <div class="container">
+            <div class="bar">
+                <!-- hr bar  -->
+            </div>
+            <div>
+                <!-- form  -->
+                <div class="form">
+                    <form action="#">
+                        <div>
+                            <label for="name-input">Name:</label>
+                            <br>
+                            <input type="text" name="name" id="name-input" class="form-input" placeholder="">
+                        </div>
+                        <div>
+                            <label for="email-input">Email:</label>
+                            <br>
+                            <input type="email" name="email" id="email-input" class="form-input"
+                                placeholder="someone.email@example.com">
+                        </div>
+                        <div>
+                            <label for="question-input">Question:</label>
+                            <br>
+                            <textarea name="question" id="question-input" rows="3"
+                                placeholder="Some question or review...."></textarea>
+                        </div>
+
+                        <div class="button">
+                            <button class="btn btn-lg btn-success">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="location">
+                    <img src="../images/map.png" alt="location of our(walkabout)">
+                    <em>official.walkabout@gmail.com</em><br>
+                    <em>9841476797,9841500123</em> <br>
+                    <em>Kathmandu, Nepal</em>
+                </div>
+            </div>
+        </div>
+        <!-- clear fix  -->
+        <div class="clearfix"> </div>
+        <!-- clear fix  -->
+        <div class="copyright">
+            <hr>
+            <span>WalkAbout &copy; 2021</span>
+        </div>
+
+    </footer>
+
+    <!-- javascript  -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
+</html>
